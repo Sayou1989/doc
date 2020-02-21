@@ -117,13 +117,19 @@ python deploy.py installAll
 python deploy.py stopAll
 ```
 
-单独启停命令和说明可查看帮助：
+启动所有服务：
+
+```shell
+python deploy.py startAll
+```
+
+其他命令和说明可查看帮助：
 
 ```shell
 python deploy.py help
 ```
 
-**备注：** 部署过程出现问题可以查看 [常见问题8](./deploy.html#id10)
+**备注：** 部署过程出现问题可以查看 [常见问题](#id19)
 
 ## 5、访问
 
