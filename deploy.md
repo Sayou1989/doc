@@ -19,7 +19,7 @@ JDK8或以上版本：
 java -version
 ```
 
-- Java推荐使用[OpenJDK](#id8 ) ，建议从[OpenJDK网站](https://jdk.java.net/java-se-ri/11) 自行下载。
+- Java推荐使用[OpenJDK](#id10) ，建议从[OpenJDK网站](https://jdk.java.net/java-se-ri/11) 自行下载。
 
 #### 检查mysql
 
@@ -86,7 +86,7 @@ cd fisco-bcos-browser/deploy
 
 ① 可以使用以下命令修改，也可以直接修改文件（vi common.properties）
 
-② 数据库需要提前安装（数据库安装请参看 [附录7.3](./deploy.html#id9)）
+② 数据库需要提前安装（数据库安装请参看 [数据库部署](#id14)）
 
 ③ 服务端口不能小于1024
 
@@ -337,7 +337,7 @@ Traceback (most recent call last):
 ImportError: No module named MySQLdb
 ```
 
-答：需要安装MySQLdb，安装请参看 [MySQLdb](#mysql-python-python2-7)
+答：需要安装MySQL-python，安装请参看 [MySQL-python](#mysql-python-python2-7)
 
 ### 8.3. 使用Python3时找不到pymysql
 
